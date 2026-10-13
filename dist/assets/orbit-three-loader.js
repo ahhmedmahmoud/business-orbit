@@ -1,0 +1,2 @@
+'use strict';
+(()=>{const map=document.querySelector('.orbital-map');if(!map||navigator.connection?.saveData)return;let loaded=false;const load=async()=>{if(loaded)return;loaded=true;try{const mod=await import('./orbit-scene.mjs');mod.mountOrbit(map);}catch(error){map.classList.remove('has-three');map.dataset.threeState='fallback';}};if('IntersectionObserver' in window){const io=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){io.disconnect();load()}},{rootMargin:'300px'});io.observe(map);}else load();})();

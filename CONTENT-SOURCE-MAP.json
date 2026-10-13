@@ -1,0 +1,577 @@
+{
+  "status": "source-aligned content review completed; not management approval",
+  "pages": 34,
+  "identity_source": "orbit identity(2).pdf",
+  "source_priority": "Identity PDF for visual identity; latest uploaded 27-slide profiles for content; older guide historical only",
+  "claim_rules": [
+    "No unsupported clients, testimonials, credentials, revenue, return or delivery-time claims",
+    "Financial/legal inputs remain coordinated with qualified specialists",
+    "Build and Transform remain the two development routes; Scale is growth readiness",
+    "Intelligence OS model and roadmap not presented as confirmed live production features",
+    "Illustrative outputs not contractual deliverable guarantees"
+  ],
+  "remaining_external_inputs": [
+    "Approved contact identity/email/phone",
+    "Verified and publication-approved case studies or credentials, if supplied",
+    "Confirmed Intelligence OS production inventory and separate roadmap",
+    "Management content sign-off"
+  ],
+  "site_indexing": "blocked during review",
+  "pages_reviewed": [
+    {
+      "route": "/en/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        10,
+        18,
+        20,
+        21,
+        22,
+        27
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/contact/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        27
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/transform/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        2,
+        8,
+        18
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/scale/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        2,
+        20,
+        21
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/capabilities/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        10
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/build/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        2,
+        8,
+        18
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/about/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        2,
+        5,
+        6,
+        25,
+        26
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/governance/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        20,
+        23
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/intelligence-os/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        17,
+        22,
+        23
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/business-model/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        2,
+        7,
+        8,
+        19
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/methodology/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        18,
+        21
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/capabilities/operations/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        10,
+        15,
+        19
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/capabilities/financial-legal/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        10,
+        16,
+        19
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/capabilities/strategy-advisory/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        10,
+        14,
+        19
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/capabilities/brand-marketing/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        10,
+        12,
+        19
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/capabilities/technology/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        10,
+        11,
+        19
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/en/capabilities/engineering/",
+      "source_file": "Business Orbit - Distinct Visuals - Original Wording(2).pptx",
+      "profile_slides": [
+        10,
+        13,
+        19
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        10,
+        18,
+        20,
+        21,
+        22,
+        27
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/contact/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        27
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/transform/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        2,
+        8,
+        18
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/scale/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        2,
+        20,
+        21
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/capabilities/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        10
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/build/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        2,
+        8,
+        18
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/about/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        2,
+        5,
+        6,
+        25,
+        26
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/governance/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        20,
+        23
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/intelligence-os/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        17,
+        22,
+        23
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/business-model/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        2,
+        7,
+        8,
+        19
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/methodology/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        18,
+        21
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/capabilities/operations/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        10,
+        15,
+        19
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/capabilities/financial-legal/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        10,
+        16,
+        19
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/capabilities/strategy-advisory/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        10,
+        14,
+        19
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/capabilities/brand-marketing/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        10,
+        12,
+        19
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/capabilities/technology/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        10,
+        11,
+        19
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    },
+    {
+      "route": "/ar/capabilities/engineering/",
+      "source_file": "Business_Orbit_Maximum_Corporate_Company_Profile_AR(2).pptx",
+      "profile_slides": [
+        10,
+        13,
+        19
+      ],
+      "content_review": "reviewed",
+      "wording_basis": "Approved profile wording or meaning-preserving web adaptation",
+      "editorial_elements": [
+        "Navigation and form instructions",
+        "Illustrative decision/output labels where present"
+      ],
+      "publication_approval": "pending administration approval"
+    }
+  ],
+  "errors": []
+}

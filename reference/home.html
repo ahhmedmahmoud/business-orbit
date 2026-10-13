@@ -1,0 +1,874 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Wave Investment | Company Builder</title>
+    <link rel="icon" href="assets/icons/shape-small.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="js/tailwind-config.js"></script>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/home.css" />
+</head>
+<body class="grain font-montserrat">
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <!-- ===== HEADER ===== -->
+    <header class="premium-header fixed left-0 right-0 top-0 z-50">
+        <nav class="premium-nav mx-auto flex max-w-[1440px] items-center justify-between gap-4 px-4 py-3 md:px-5 xl:px-6">
+            <a href="index.html" aria-label="Business Wave Investment home" class="premium-brand flex items-center gap-3">
+                <span class="premium-logo-frame">
+                    <img src="assets/logos/logo-white-transparent.png" alt="Business Wave Investment" class="h-7 w-auto sm:h-10" />
+                </span>
+                <span class="premium-kicker font-stencil-kicker hidden text-[12px] uppercase text-flame sm:block">
+                    Company<br><span class="text-white/70">Builder</span>
+                </span>
+            </a>
+
+            <div class="premium-menu hidden items-center gap-1 p-1 md:flex">
+                <a href="portfolio.html" class="nav-link text-[11px] font-bold uppercase">Portfolio</a>
+                <a href="market-insights.html" class="nav-link text-[11px] font-bold uppercase">Insights</a>
+                <a href="our-story.html" class="nav-link text-[11px] font-bold uppercase">Story</a>
+                <a href="#contact" class="nav-link text-[11px] font-bold uppercase">Contact</a>
+            </div>
+
+            <a href="#contact" class="premium-cta btn-ripple px-4 text-[10px] font-extrabold uppercase text-white transition hover:scale-[1.02] sm:px-5 sm:text-[11px] md:px-6">
+                <span class="material-symbols-outlined mr-2 hidden sm:inline-block">arrow_forward</span>
+                <span class="cta-label">Private Desk</span>
+            </a>
+        </nav>
+    </header>
+
+    <!-- ===== MAIN ===== -->
+    <main>
+
+        <!-- ===== HERO ===== -->
+        <section class="identity-bg identity-mark-bg relative min-h-screen overflow-hidden bg-ink pt-20">
+            <div class="brand-pattern-wash light"></div>
+            <div class="brand-shape small whitewash right-10 bottom-24 hidden md:block"></div>
+            <!-- Background Image -->
+            <img src="assets/images/content/hero-business-district.jpg" alt="Modern glass towers representing business growth" class="parallax-layer absolute inset-0 h-full w-full object-cover object-[56%_50%] opacity-80 md:object-[60%_50%]" />
+
+            <!-- Gradients -->
+            <div class="absolute inset-0 bg-gradient-to-r from-ink via-ink/82 to-ink/18"></div>
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_82%_18%,rgba(0,36,249,.35),transparent_32%)]"></div>
+            <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-oxblood/80 via-ink/36 to-transparent"></div>
+            <div class="absolute inset-0 diagonal-field opacity-18"></div>
+
+            <!-- Floating Particles -->
+            <div class="particle particle-hero-a"></div>
+            <div class="particle particle-hero-b"></div>
+
+            <div class="identity-content mx-auto flex min-h-[calc(100vh-80px)] max-w-[1440px] items-center px-5 py-24 md:px-10 xl:px-20">
+                <div class="max-w-5xl">
+                    <p class="section-kicker mb-7">Company builder and investment operator</p>
+
+                    <h1 class="text-[2.45rem] font-extrabold leading-[1.04] text-white sm:text-6xl lg:text-7xl">
+                        We build brands that <span class="font-stencil-word text-flame">deserve to win.</span>
+                    </h1>
+
+                    <p class="mt-7 max-w-[22rem] text-base leading-8 text-white/78 sm:max-w-2xl md:text-lg">
+                        Business Wave is not a traditional advisory firm. We are an investment and execution partner that takes brands from idea to market value.
+                    </p>
+
+                    <div class="mt-10 flex flex-col gap-3 sm:flex-row">
+                        <a href="#who" class="btn-ripple inline-flex min-h-12 items-center justify-center rounded bg-flame px-7 text-[12px] font-extrabold uppercase text-white transition hover:bg-ember hover:scale-105 hover:shadow-redglow">
+                            Who We Are
+                        </a>
+                        <a href="#services" class="btn-ripple inline-flex min-h-12 items-center justify-center rounded border border-white/35 px-7 text-[12px] font-extrabold uppercase text-white transition hover:bg-white/10 hover:scale-105">
+                            What We Do
+                        </a>
+                    </div>
+
+                    <!-- Brand Value Chain -->
+                    <div class="value-chain mt-14 max-w-4xl rounded-lg p-5 sm:p-6">
+                        <div class="relative">
+                            <div class="value-track hidden sm:block"></div>
+                            <div class="grid gap-5 sm:grid-cols-4">
+                                <div class="value-step">
+                                    <span class="value-dot">01</span>
+                                    <p class="font-stencil-kicker mt-4 text-sm uppercase text-flame">Idea</p>
+                                    <p class="mt-1 text-sm font-bold text-white">Find the signal</p>
+                                </div>
+                                <div class="value-step">
+                                    <span class="value-dot">02</span>
+                                    <p class="font-stencil-kicker mt-4 text-sm uppercase text-flame">Build</p>
+                                    <p class="mt-1 text-sm font-bold text-white">Shape the brand</p>
+                                </div>
+                                <div class="value-step">
+                                    <span class="value-dot">03</span>
+                                    <p class="font-stencil-kicker mt-4 text-sm uppercase text-flame">Operate</p>
+                                    <p class="mt-1 text-sm font-bold text-white">Run the system</p>
+                                </div>
+                                <div class="value-step">
+                                    <span class="value-dot">04</span>
+                                    <p class="font-stencil-kicker mt-4 text-sm uppercase text-flame">Market Value</p>
+                                    <p class="mt-1 text-sm font-bold text-white">Scale the return</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="identity-content metrics-strip mx-auto grid max-w-[1440px] grid-cols-2 md:grid-cols-4">
+                <div class="metric-cell group border-white/10 transition hover:bg-white/5 md:border-r">
+                    <p class="stat-number font-stencil text-4xl text-flame transition group-hover:scale-110" data-target="6">0</p>
+                    <p class="mt-2 text-xs font-bold uppercase text-bone/55">Service groups</p>
+                </div>
+                <div class="metric-cell group border-white/10 transition hover:bg-white/5 md:border-r">
+                    <p class="stat-number font-stencil text-4xl text-flame transition group-hover:scale-110" data-target="2">0</p>
+                    <p class="mt-2 text-xs font-bold uppercase text-bone/55">Brand paths</p>
+                </div>
+                <div class="metric-cell group border-white/10 transition hover:bg-white/5 md:border-r">
+                    <p class="stat-number font-stencil text-4xl text-flame transition group-hover:scale-110" data-target="4">0</p>
+                    <p class="mt-2 text-xs font-bold uppercase text-bone/55">Work stages</p>
+                </div>
+                <div class="metric-cell group transition hover:bg-white/5">
+                    <p class="stat-number font-stencil text-4xl text-flame transition group-hover:scale-110" data-target="1">0</p>
+                    <p class="mt-2 text-xs font-bold uppercase text-bone/55">Shared success model</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== WHO WE ARE ===== -->
+        <section id="who" class="identity-bg-dark bg-white text-ink">
+            <div class="identity-content mx-auto grid max-w-[1440px] lg:grid-cols-12">
+                <div class="relative min-h-[520px] overflow-hidden lg:col-span-6">
+                    <img src="assets/images/content/handshake.png" alt="Business agreement handshake representing partnership" class="image-zoom absolute inset-0 h-full w-full object-cover" />
+                    <div class="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-oxblood/60 to-transparent"></div>
+                    <div class="absolute right-0 top-0 hidden h-full w-28 bg-flame lg:block"></div>
+                </div>
+
+                <div class="relative flex items-center px-5 py-20 md:px-10 lg:col-span-6 xl:px-20">
+                    <div class="absolute -top-12 left-5 bg-flame px-12 py-8 text-center text-white shadow-redglow md:left-10 xl:left-20">
+                        <p class="text-sm font-extrabold uppercase">Who We Are</p>
+                    </div>
+
+                    <div class="max-w-2xl">
+                        <div class="mb-6 h-px w-12 bg-ink"></div>
+                        <h2 class="text-4xl font-extrabold md:text-5xl">We craft the brand, then master its <span class="font-stencil-word text-flame">engineering.</span></h2>
+                        <p class="mt-7 text-base leading-8 text-steel">
+                            We study the investor journey and the brand journey together, from idea to market value. We do not stop at recommendations; we execute on the ground, participate in building success, and win when the client wins.
+                        </p>
+
+                        <div class="mt-9 grid gap-4 sm:grid-cols-2">
+                            <div class="group rounded-lg border border-ink/10 p-5 transition hover:border-flame/30 hover:shadow-card">
+                                <div class="border-l-4 border-flame pl-5">
+                                    <h3 class="font-bold group-hover:text-flame transition">Create from zero</h3>
+                                    <p class="mt-2 text-sm leading-6 text-steel">Market study, positioning, identity, launch plan, and commercial activation.</p>
+                                </div>
+                            </div>
+                            <div class="group rounded-lg border border-ink/10 p-5 transition hover:border-flame/30 hover:shadow-card">
+                                <div class="border-l-4 border-ink pl-5 group-hover:border-flame transition">
+                                    <h3 class="font-bold group-hover:text-flame transition">Restructure existing brands</h3>
+                                    <p class="mt-2 text-sm leading-6 text-steel">Rebuild the operating model, increase sales, and grow market value.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SERVICES ===== -->
+        <section id="services" class="identity-bg identity-mark-bg relative overflow-hidden bg-night py-24 md:py-32">
+            <div class="brand-pattern-wash light"></div>
+            <div class="brand-lines-panel -left-36 bottom-[-180px] rotate-[-8deg]"></div>
+            <div class="brand-shape mid redwash right-14 top-20"></div>
+            <img src="assets/images/content/team-boardroom.png" alt="Executive team planning session" class="absolute inset-0 h-full w-full object-cover opacity-[.6]" />
+            <div class="absolute inset-0 bg-ink/78"></div>
+            <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-oxblood/50 to-transparent"></div>
+
+            <div class="identity-content mx-auto max-w-[1440px] px-5 md:px-10 xl:px-20">
+                <div class="mx-auto max-w-3xl text-center">
+                    <p class="section-kicker justify-center">Our Solutions and Services</p>
+                    <h2 class="mt-4 text-4xl font-extrabold md:text-5xl">Full-stack execution, not <span class="font-stencil-word text-flame">isolated advice.</span></h2>
+                    <p class="mt-6 text-base leading-8 text-bone/72">Business Wave connects technology, marketing, engineering, advisory, operations, and capital strategy into one execution ecosystem.</p>
+                </div>
+
+                <div class="mt-16 grid gap-6 md:grid-cols-3">
+                    <!-- Card 1: Primary -->
+                    <div class="reveal service-card card-primary card-hover rounded-lg">
+                        <span class="material-symbols-outlined text-4xl">developer_mode</span>
+                        <h3 class="mt-8 text-2xl font-bold text-white">Technology and Software</h3>
+                        <p class="mt-4 text-sm leading-7 text-white/80">Custom platforms, mobile apps, SaaS products, cloud infrastructure, databases, support, and technical maintenance.</p>
+                        <div class="service-link mt-6 inline-flex items-center text-sm font-bold uppercase">
+                            Learn more <span class="ml-2 transition group-hover:translate-x-1">-></span>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: Outline -->
+                    <div class="reveal reveal-delay-1 service-card card-outline card-hover rounded-lg">
+                        <span class="material-symbols-outlined text-4xl text-flame">campaign</span>
+                        <h3 class="mt-8 text-2xl font-bold text-white">Marketing and Digital Media</h3>
+                        <p class="mt-4 text-sm leading-7 text-bone/68">Identity systems, performance campaigns, content, SEO, reputation management, and sales-focused market presence.</p>
+                        <div class="service-link mt-6 inline-flex items-center text-sm font-bold uppercase">
+                            Learn more <span class="ml-2 transition group-hover:translate-x-1">-></span>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Minimal -->
+                    <div class="reveal reveal-delay-2 service-card card-minimal card-hover rounded-lg">
+                        <span class="material-symbols-outlined text-4xl text-white/70">domain</span>
+                        <h3 class="mt-8 text-2xl font-bold text-white">Engineering Services</h3>
+                        <p class="mt-4 text-sm leading-7 text-bone/68">MEP design, project management, technical consulting, supervision, facility operation, and maintenance solutions.</p>
+                        <div class="service-link mt-6 inline-flex items-center text-sm font-bold uppercase transition">
+                            Learn more <span class="ml-2 transition group-hover:translate-x-1">-></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ECOSYSTEM MAP ===== -->
+        <section class="ecosystem-stage identity-bg-dark bg-white py-24 text-ink md:py-32">
+            <div class="ecosystem-ribbon"></div>
+            <div class="brand-shape small redwash right-16 top-44 opacity-[.10]"></div>
+            <div class="identity-content mx-auto max-w-[1440px] px-5 md:px-10 xl:px-20">
+                <div class="grid gap-12 lg:grid-cols-12 lg:items-end">
+                    <div class="lg:col-span-5">
+                        <p class="text-[11px] font-extrabold uppercase text-flame">Integrated Ecosystem</p>
+                        <h2 class="mt-4 text-4xl font-extrabold md:text-5xl">Six service groups working as <span class="font-stencil-word text-flame">one engine.</span></h2>
+                        <p class="mt-6 text-base leading-8 text-steel">The profile defines Business Wave as more than three sectors. The full model connects technology, marketing, MEP engineering, financial and legal consulting, management advisory, and operational solutions.</p>
+                    </div>
+                    <div class="card-hover relative overflow-hidden border border-ink/10 bg-steel shadow-card lg:col-span-7">
+                        <img src="assets/images/content/hero-executive.png" alt="Business Wave profile illustration collage" class="h-full min-h-[360px] w-full object-cover opacity-72" />
+                        <div class="absolute inset-0 bg-gradient-to-r from-steel/86 via-steel/50 to-transparent"></div>
+                        <div class="absolute inset-y-0 right-0 w-1/2 bg-gradient-to-l from-white/22 to-transparent"></div>
+                    </div>
+                </div>
+
+                <div class="sector-explorer mt-14">
+                <div class="grid gap-5 md:grid-cols-2" data-sector-grid>
+                    <article class="sector-card card-hover rounded-lg border border-ink/10 bg-white p-6 shadow-card is-open" data-sector-card data-sector-key="technology">
+                        <button class="sector-card-toggle" type="button" aria-expanded="true">
+                            <span class="sector-card-media mb-6 block">
+                                <img src="assets/images/content/tech-robot.png" alt="Technology and software illustration" class="h-32 w-full rounded object-cover" />
+                            </span>
+                            <span class="text-sm font-extrabold text-flame">01</span>
+                            <span class="mt-3 block text-xl font-bold">Information Technology and Software</span>
+                            <span class="mt-3 block text-sm leading-7 text-steel">Integrated technology tools that support brand growth and improve operational efficiency.</span>
+                            <span class="sector-action">View sector details <span class="material-symbols-outlined">expand_more</span></span>
+                        </button>
+                        <div class="sector-details" role="region">
+                            <div class="sector-details-inner">
+                                <div class="sector-detail-panel">
+                                    <ul>
+                                        <li>Software and systems development according to each brand's needs.</li>
+                                        <li>Mobile application development for Android and iOS.</li>
+                                        <li>SaaS solutions with flexible subscription models.</li>
+                                        <li>Digital platform development and database management.</li>
+                                        <li>Cloud solutions and technical infrastructure.</li>
+                                        <li>Technical support and continuous system maintenance.</li>
+                                    </ul>
+                                    <p class="sector-note">Business Wave does not only develop software; it builds technical tools that support brand growth and increase operational efficiency.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="sector-card card-hover rounded-lg border border-ink/10 bg-white p-6 shadow-card" data-sector-card data-sector-key="marketing">
+                        <button class="sector-card-toggle" type="button" aria-expanded="false">
+                            <span class="sector-card-media mb-6 block">
+                                <img src="assets/images/content/brand-identity.png" alt="Brand identity illustration" class="h-32 w-full rounded object-cover" />
+                            </span>
+                            <span class="text-sm font-extrabold text-flame">02</span>
+                            <span class="mt-3 block text-xl font-bold">Digital Marketing and Media</span>
+                            <span class="mt-3 block text-sm leading-7 text-steel">Brand-building, visibility, reputation, and sales-focused digital growth.</span>
+                            <span class="sector-action">View sector details <span class="material-symbols-outlined">expand_more</span></span>
+                        </button>
+                        <div class="sector-details" role="region">
+                            <div class="sector-details-inner">
+                                <div class="sector-detail-panel">
+                                    <ul>
+                                        <li>Integrated corporate identity including logo, colors, visual identity, and verbal identity.</li>
+                                        <li>Digital marketing strategies across social media and search engines.</li>
+                                        <li>Paid advertising campaign management for Google Ads, Meta Ads, and other platforms.</li>
+                                        <li>Content marketing and video production.</li>
+                                        <li>Search Engine Optimization to increase digital visibility.</li>
+                                        <li>Online brand reputation management.</li>
+                                    </ul>
+                                    <p class="sector-note">The goal is not only visibility. The sector is built to generate actual sales and strengthen the relationship between the brand and its customers.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="sector-card card-hover rounded-lg border border-ink/10 bg-white p-6 shadow-card" data-sector-card data-sector-key="engineering">
+                        <button class="sector-card-toggle" type="button" aria-expanded="false">
+                            <span class="sector-card-media mb-6 block">
+                                <img src="assets/images/content/engineering-cad.png" alt="MEP engineering CAD illustration" class="h-32 w-full rounded object-cover" />
+                            </span>
+                            <span class="text-sm font-extrabold text-flame">03</span>
+                            <span class="mt-3 block text-xl font-bold">Engineering Services (MEP)</span>
+                            <span class="mt-3 block text-sm leading-7 text-steel">Engineering design, project delivery, supervision, operation, and facility support.</span>
+                            <span class="sector-action">View sector details <span class="material-symbols-outlined">expand_more</span></span>
+                        </button>
+                        <div class="sector-details" role="region">
+                            <div class="sector-details-inner">
+                                <div class="sector-detail-panel">
+                                    <ul>
+                                        <li>Engineering design for mechanical, electrical, and plumbing projects.</li>
+                                        <li>Project management from start to delivery.</li>
+                                        <li>Execution supervision and quality assurance.</li>
+                                        <li>Technical and engineering consulting for major projects.</li>
+                                        <li>Maintenance and operation solutions for buildings and facilities.</li>
+                                    </ul>
+                                    <p class="sector-note">This sector ensures the engineering side supports the brand, whether it operates in construction, real estate development, or any field requiring professional engineering solutions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="sector-card card-hover rounded-lg border border-ink/10 bg-white p-6 shadow-card" data-sector-card data-sector-key="finance">
+                        <button class="sector-card-toggle" type="button" aria-expanded="false">
+                            <span class="sector-card-media mb-6 block">
+                                <img src="assets/images/content/legal-contract.png" alt="Financial and legal consulting meeting" class="h-32 w-full rounded object-cover" />
+                            </span>
+                            <span class="text-sm font-extrabold text-flame">04</span>
+                            <span class="mt-3 block text-xl font-bold">Financial and Legal Consulting</span>
+                            <span class="mt-3 block text-sm leading-7 text-steel">Specialist-backed financial structuring, valuation, tax, legal, and contract support.</span>
+                            <span class="sector-action">View sector details <span class="material-symbols-outlined">expand_more</span></span>
+                        </button>
+                        <div class="sector-details" role="region">
+                            <div class="sector-details-inner">
+                                <div class="sector-detail-panel">
+                                    <ul>
+                                        <li>Capital structuring and financial valuation.</li>
+                                        <li>Tax and legal consulting for projects and acquisitions.</li>
+                                        <li>Contract and agreement preparation between parties.</li>
+                                    </ul>
+                                    <p class="sector-note">This sector is delivered in partnership with specialists so investment decisions, projects, and acquisitions have the right financial and legal foundation.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="sector-card card-hover rounded-lg border border-ink/10 bg-white p-6 shadow-card" data-sector-card data-sector-key="consulting">
+                        <button class="sector-card-toggle" type="button" aria-expanded="false">
+                            <span class="sector-card-media mb-6 block">
+                                <img src="assets/images/content/analytics-desk.png" alt="Advisory dashboard illustration" class="h-32 w-full rounded object-cover" />
+                            </span>
+                            <span class="text-sm font-extrabold text-flame">05</span>
+                            <span class="mt-3 block text-xl font-bold">Consulting and Management Services</span>
+                            <span class="mt-3 block text-sm leading-7 text-steel">Strategic planning, feasibility, restructuring, business modeling, and expansion.</span>
+                            <span class="sector-action">View sector details <span class="material-symbols-outlined">expand_more</span></span>
+                        </button>
+                        <div class="sector-details" role="region">
+                            <div class="sector-details-inner">
+                                <div class="sector-detail-panel">
+                                    <ul>
+                                        <li>Economic feasibility studies with precise analysis of investment opportunities, expected returns, and risks.</li>
+                                        <li>Strategic planning for the short, medium, and long term.</li>
+                                        <li>Administrative restructuring to organize roles, responsibilities, and teams.</li>
+                                        <li>Change management to help teams adapt to new brand developments.</li>
+                                        <li>Business modeling to make brands more profitable and sustainable.</li>
+                                        <li>Acquisition and exit support for buying promising brands or selling after value growth.</li>
+                                        <li>Geographic expansion studies to identify the strongest areas for growth.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="sector-card card-hover rounded-lg border border-ink/10 bg-white p-6 shadow-card" data-sector-card data-sector-key="operations">
+                        <button class="sector-card-toggle" type="button" aria-expanded="false">
+                            <span class="sector-card-media mb-6 block">
+                                <img src="assets/images/content/tech-dashboard.png" alt="Operational solutions illustration" class="h-32 w-full rounded object-cover" />
+                            </span>
+                            <span class="text-sm font-extrabold text-flame">06</span>
+                            <span class="mt-3 block text-xl font-bold">Operational Solutions</span>
+                            <span class="mt-3 block text-sm leading-7 text-steel">Daily execution control, workflow efficiency, internal process improvement, and team development.</span>
+                            <span class="sector-action">View sector details <span class="material-symbols-outlined">expand_more</span></span>
+                        </button>
+                        <div class="sector-details" role="region">
+                            <div class="sector-details-inner">
+                                <div class="sector-detail-panel">
+                                    <ul>
+                                        <li>Operational supervision to monitor daily execution and ensure workflow efficiency.</li>
+                                        <li>Team training and development to enhance employee skills in sales, marketing, and service.</li>
+                                        <li>Internal process optimization to simplify procedures, reduce waste, and increase productivity.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <aside class="sector-detail-dock hidden lg:block" data-sector-dock aria-live="polite">
+                    <div class="sector-dock-panel is-active" data-sector-panel="technology">
+                        <p class="sector-dock-eyebrow">01 / Information Technology and Software</p>
+                        <h3>Technology tools built for brand growth.</h3>
+                        <p class="mt-4 text-sm leading-7">Integrated technology solutions that improve operations, support customer journeys, and create scalable digital infrastructure.</p>
+                        <ul>
+                            <li>Software and systems development according to each brand's needs.</li>
+                            <li>Mobile application development for Android and iOS.</li>
+                            <li>SaaS solutions with flexible subscription models.</li>
+                            <li>Digital platform development and database management.</li>
+                            <li>Cloud solutions and technical infrastructure.</li>
+                            <li>Technical support and continuous system maintenance.</li>
+                        </ul>
+                        <p class="sector-note">Business Wave does not only develop software; it builds technical tools that support brand growth and increase operational efficiency.</p>
+                    </div>
+
+                    <div class="sector-dock-panel" data-sector-panel="marketing">
+                        <p class="sector-dock-eyebrow">02 / Digital Marketing and Media</p>
+                        <h3>Visibility that turns into sales.</h3>
+                        <p class="mt-4 text-sm leading-7">A complete digital brand-building system focused on market presence, reputation, customer relationships, and measurable commercial outcomes.</p>
+                        <ul>
+                            <li>Integrated corporate identity including logo, colors, visual identity, and verbal identity.</li>
+                            <li>Digital marketing strategies across social media and search engines.</li>
+                            <li>Paid advertising campaign management for Google Ads, Meta Ads, and other platforms.</li>
+                            <li>Content marketing and video production.</li>
+                            <li>Search Engine Optimization to increase digital visibility.</li>
+                            <li>Online brand reputation management.</li>
+                        </ul>
+                        <p class="sector-note">The goal is not only visibility. The sector is built to generate actual sales and strengthen the relationship between the brand and its customers.</p>
+                    </div>
+
+                    <div class="sector-dock-panel" data-sector-panel="engineering">
+                        <p class="sector-dock-eyebrow">03 / Engineering Services (MEP)</p>
+                        <h3>Engineering support for serious operations.</h3>
+                        <p class="mt-4 text-sm leading-7">MEP and project-delivery capability for brands that operate in construction, real estate development, facilities, or infrastructure-heavy environments.</p>
+                        <ul>
+                            <li>Engineering design for mechanical, electrical, and plumbing projects.</li>
+                            <li>Project management from start to delivery.</li>
+                            <li>Execution supervision and quality assurance.</li>
+                            <li>Technical and engineering consulting for major projects.</li>
+                            <li>Maintenance and operation solutions for buildings and facilities.</li>
+                        </ul>
+                        <p class="sector-note">This sector ensures the engineering side supports the brand, whether it operates in construction, real estate development, or any field requiring professional engineering solutions.</p>
+                    </div>
+
+                    <div class="sector-dock-panel" data-sector-panel="finance">
+                        <p class="sector-dock-eyebrow">04 / Financial and Legal Consulting</p>
+                        <h3>Specialist structure for investment decisions.</h3>
+                        <p class="mt-4 text-sm leading-7">Financial and legal support delivered with specialists so projects, acquisitions, and agreements are built on a stronger foundation.</p>
+                        <ul>
+                            <li>Capital structuring and financial valuation.</li>
+                            <li>Tax and legal consulting for projects and acquisitions.</li>
+                            <li>Contract and agreement preparation between parties.</li>
+                        </ul>
+                        <p class="sector-note">This sector supports the financial and legal side of brand development, project execution, acquisitions, and investor relations.</p>
+                    </div>
+
+                    <div class="sector-dock-panel" data-sector-panel="consulting">
+                        <p class="sector-dock-eyebrow">05 / Consulting and Management Services</p>
+                        <h3>Management clarity from strategy to exit.</h3>
+                        <p class="mt-4 text-sm leading-7">A management layer that helps brands understand opportunity, restructure for efficiency, and grow with a clear roadmap.</p>
+                        <ul>
+                            <li>Economic feasibility studies with precise analysis of opportunities, returns, and risks.</li>
+                            <li>Strategic planning for the short, medium, and long term.</li>
+                            <li>Administrative restructuring to organize roles, responsibilities, and teams.</li>
+                            <li>Change management to help teams adapt to brand developments.</li>
+                            <li>Business modeling to make brands more profitable and sustainable.</li>
+                            <li>Acquisition and exit support for buying promising brands or selling after value growth.</li>
+                            <li>Geographic expansion studies to identify the strongest growth areas.</li>
+                        </ul>
+                    </div>
+
+                    <div class="sector-dock-panel" data-sector-panel="operations">
+                        <p class="sector-dock-eyebrow">06 / Operational Solutions</p>
+                        <h3>Daily execution made measurable.</h3>
+                        <p class="mt-4 text-sm leading-7">Operational support that turns plans into working routines, stronger teams, and more efficient internal processes.</p>
+                        <ul>
+                            <li>Operational supervision to monitor daily execution and ensure workflow efficiency.</li>
+                            <li>Team training and development to enhance employee skills in sales, marketing, and service.</li>
+                            <li>Internal process optimization to simplify procedures, reduce waste, and increase productivity.</li>
+                        </ul>
+                    </div>
+                </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ADVISORY AND OPERATIONS ===== -->
+        <section class="identity-bg identity-mark-bg bg-ink py-24 text-white md:py-32">
+            <div class="brand-pattern-wash light"></div>
+            <div class="brand-lines-panel left-[-120px] top-[-160px] rotate-6"></div>
+            <div class="brand-shape small whitewash right-16 bottom-20"></div>
+            <div class="identity-content mx-auto grid max-w-[1440px] gap-12 px-5 md:px-10 lg:grid-cols-12 xl:px-20">
+                <div class="lg:col-span-4">
+                    <p class="text-[11px] font-extrabold uppercase text-flame">Profile Depth</p>
+                    <h2 class="mt-4 text-4xl font-extrabold md:text-5xl">From advisory clarity to <span class="font-stencil-word text-flame">operational control.</span></h2>
+                    <p class="mt-6 text-base leading-8 text-white/72">The profile adds a deeper layer to the site: Business Wave supports the boardroom decisions and the day-to-day execution required to turn opportunities into real business value.</p>
+                    <img src="assets/images/content/growth-chart.png" alt="Business Wave workflow icons" class="mt-10 h-36 w-full rounded-lg object-cover opacity-88 shadow-soft" />
+                </div>
+                <div class="grid gap-5 md:grid-cols-2 lg:col-span-8">
+                    <div class="card-hover dark-readable rounded-lg border border-white/10 bg-white/[.08] p-7 backdrop-blur">
+                        <span class="material-symbols-outlined text-4xl text-flame">query_stats</span>
+                        <h3 class="mt-6 text-2xl font-bold">Economic Feasibility</h3>
+                        <p class="mt-4 text-sm leading-7 text-white/70">Precise analysis of investment opportunities, expected returns, and risk before capital is committed.</p>
+                    </div>
+                    <div class="card-hover dark-readable rounded-lg border border-white/10 bg-white/[.08] p-7 backdrop-blur">
+                        <span class="material-symbols-outlined text-4xl text-flame">account_tree</span>
+                        <h3 class="mt-6 text-2xl font-bold">Administrative Restructuring</h3>
+                        <p class="mt-4 text-sm leading-7 text-white/70">Roles, responsibilities, and teams are reorganized to increase efficiency and accountability.</p>
+                    </div>
+                    <div class="card-hover dark-readable rounded-lg border border-white/10 bg-white/[.08] p-7 backdrop-blur">
+                        <span class="material-symbols-outlined text-4xl text-flame">sync_alt</span>
+                        <h3 class="mt-6 text-2xl font-bold">Change Management</h3>
+                        <p class="mt-4 text-sm leading-7 text-white/70">Teams are guided through brand developments, new systems, and operating-model change.</p>
+                    </div>
+                    <div class="card-hover dark-readable rounded-lg border border-white/10 bg-white/[.08] p-7 backdrop-blur">
+                        <span class="material-symbols-outlined text-4xl text-flame">public</span>
+                        <h3 class="mt-6 text-2xl font-bold">Geographic Expansion</h3>
+                        <p class="mt-4 text-sm leading-7 text-white/70">New markets are studied and the strongest expansion opportunities are identified.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== EXPERTISE TAGS ===== -->
+        <section class="identity-bg-dark bg-bone py-8 text-ink">
+                <div class="brand-pattern-wash"></div>
+                <div class="identity-content mx-auto grid max-w-[1440px] grid-cols-2 gap-4 px-5 md:grid-cols-6 md:px-10 xl:px-20">
+                <div class="brand-corner border border-ink/10 bg-white p-5 text-center text-xs font-extrabold uppercase text-steel shadow-card transition hover:-translate-y-1 hover:border-flame/30 hover:shadow-cardhover hover:text-flame">Brand Strategy</div>
+                <div class="brand-corner border border-ink/10 bg-white p-5 text-center text-xs font-extrabold uppercase text-steel shadow-card transition hover:-translate-y-1 hover:border-flame/30 hover:shadow-cardhover hover:text-flame">SaaS</div>
+                <div class="brand-corner border border-ink/10 bg-white p-5 text-center text-xs font-extrabold uppercase text-steel shadow-card transition hover:-translate-y-1 hover:border-flame/30 hover:shadow-cardhover hover:text-flame">MEP</div>
+                <div class="brand-corner border border-ink/10 bg-white p-5 text-center text-xs font-extrabold uppercase text-steel shadow-card transition hover:-translate-y-1 hover:border-flame/30 hover:shadow-cardhover hover:text-flame">SEO</div>
+                <div class="brand-corner border border-ink/10 bg-white p-5 text-center text-xs font-extrabold uppercase text-steel shadow-card transition hover:-translate-y-1 hover:border-flame/30 hover:shadow-cardhover hover:text-flame">Operations</div>
+                <div class="brand-corner border border-ink/10 bg-white p-5 text-center text-xs font-extrabold uppercase text-steel shadow-card transition hover:-translate-y-1 hover:border-flame/30 hover:shadow-cardhover hover:text-flame">Acquisition</div>
+            </div>
+        </section>
+
+        <!-- ===== PRODUCTS ===== -->
+        <section class="identity-bg identity-mark-bg bg-ink py-24 md:py-32">
+            <div class="brand-pattern-wash light"></div>
+            <div class="brand-shape large redwash left-[-90px] bottom-[-120px]"></div>
+            <div class="brand-lines-panel right-[-180px] top-14"></div>
+            <div class="identity-content mx-auto grid max-w-[1440px] gap-12 px-5 md:px-10 lg:grid-cols-12 xl:px-20">
+                <div class="lg:col-span-4">
+                    <p class="section-kicker">Our Products</p>
+                    <h2 class="mt-4 text-4xl font-extrabold md:text-5xl">Making ideas <span class="font-stencil-word text-flame">operational.</span></h2>
+                    <p class="mt-6 text-base leading-8 text-bone/68">We do not only advise the brand. We build the tools, teams, and operating rhythm that make it work.</p>
+                </div>
+
+                <div class="grid gap-5 md:grid-cols-2 lg:col-span-8">
+                    <div class="reveal dark-readable card-minimal card-hover rounded-lg border border-white/10 bg-carbon p-7 transition hover:border-flame/30">
+                        <span class="material-symbols-outlined text-4xl text-flame">dashboard</span>
+                        <h3 class="mt-8 text-2xl font-bold">Smart Dashboards</h3>
+                        <p class="mt-4 text-sm leading-7 text-bone/64">Decision dashboards for sales, finance, operations, and management visibility.</p>
+                        <div class="mt-4 inline-flex items-center text-sm font-bold uppercase text-white/70 transition group-hover:text-flame">
+                            Explore <span class="ml-2 transition group-hover:translate-x-1">-></span>
+                        </div>
+                    </div>
+
+                    <div class="reveal reveal-delay-1 dark-readable card-minimal card-hover rounded-lg border border-white/10 bg-carbon p-7 transition hover:border-flame/30">
+                        <span class="material-symbols-outlined text-4xl text-flame">smart_toy</span>
+                        <h3 class="mt-8 text-2xl font-bold">AI and Machine Learning</h3>
+                        <p class="mt-4 text-sm leading-7 text-bone/64">Automation, prediction, data processing, and customer intelligence models.</p>
+                        <div class="mt-4 inline-flex items-center text-sm font-bold uppercase text-white/70 transition group-hover:text-flame">
+                            Explore <span class="ml-2 transition group-hover:translate-x-1">-></span>
+                        </div>
+                    </div>
+
+                    <div class="reveal reveal-delay-2 dark-readable card-minimal card-hover rounded-lg border border-white/10 bg-carbon p-7 transition hover:border-flame/30">
+                        <span class="material-symbols-outlined text-4xl text-flame">support_agent</span>
+                        <h3 class="mt-8 text-2xl font-bold">Smart Chatbots</h3>
+                        <p class="mt-4 text-sm leading-7 text-bone/64">Service, sales, onboarding, and operations assistants connected to real workflows.</p>
+                        <div class="mt-4 inline-flex items-center text-sm font-bold uppercase text-white/70 transition group-hover:text-flame">
+                            Explore <span class="ml-2 transition group-hover:translate-x-1">-></span>
+                        </div>
+                    </div>
+
+                    <div class="reveal reveal-delay-2 dark-readable card-minimal card-hover rounded-lg border border-white/10 bg-carbon p-7 transition hover:border-flame/30">
+                        <img src="assets/images/brand/pattern.png" alt="Business Wave pattern" class="absolute inset-0 h-full w-full object-cover opacity-35" />
+                        <div class="relative">
+                            <span class="material-symbols-outlined text-4xl text-flame">route</span>
+                            <h3 class="mt-8 text-2xl font-bold">Brand Operating Systems</h3>
+                            <p class="mt-4 text-sm leading-7 text-bone/72">Processes, roles, metrics, launch cadence, and growth governance.</p>
+                            <div class="mt-4 inline-flex items-center text-sm font-bold uppercase text-white/70 transition group-hover:text-flame">
+                                Explore <span class="ml-2 transition group-hover:translate-x-1">-></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== HOW WE WORK ===== -->
+        <section class="identity-bg-dark bg-white py-24 text-ink md:py-32">
+            <div class="brand-pattern-wash"></div>
+            <div class="brand-shape mid redwash right-[-40px] top-24"></div>
+            <div class="brand-lines-panel left-[-180px] bottom-[-160px] rotate-[-12deg]"></div>
+            <div class="identity-content mx-auto grid max-w-[1440px] gap-12 px-5 md:px-10 lg:grid-cols-12 xl:px-20">
+                <div class="lg:col-span-5">
+                    <div class="relative">
+                        <img src="assets/images/content/analytics-desk.png" alt="Digital strategy workspace" class="h-[480px] w-full object-cover shadow-card" />
+                        <img src="assets/images/content/team-boardroom.png" alt="Team working on business technology" class="absolute -bottom-12 right-0 hidden h-72 w-80 object-cover shadow-soft md:block animate-float" />
+                    </div>
+                </div>
+
+                <div class="flex items-center lg:col-span-7">
+                    <div>
+                        <p class="text-[11px] font-extrabold uppercase text-flame">How We Work</p>
+                        <h2 class="mt-4 text-4xl font-extrabold md:text-5xl">From evaluation to <span class="font-stencil-word text-flame">measurable improvement.</span></h2>
+
+                        <div class="mt-10 grid gap-4 sm:grid-cols-2">
+                            <div class="card-hover group rounded-lg border border-ink/10 bg-bone p-6 transition hover:border-flame/30 hover:shadow-card">
+                                <p class="text-sm font-extrabold text-flame">01</p>
+                                <h3 class="mt-6 text-xl font-bold group-hover:text-flame transition">Evaluate</h3>
+                                <p class="mt-3 text-sm leading-7 text-steel">Understand the current position, analyze the market, and define strengths and opportunities.</p>
+                            </div>
+
+                            <div class="card-hover group rounded-lg border border-ink/10 bg-bone p-6 transition hover:border-flame/30 hover:shadow-card">
+                                <p class="text-sm font-extrabold text-flame">02</p>
+                                <h3 class="mt-6 text-xl font-bold group-hover:text-flame transition">Plan</h3>
+                                <p class="mt-3 text-sm leading-7 text-steel">Build a roadmap, clarify goals, and define execution steps.</p>
+                            </div>
+
+                            <div class="card-hover group rounded-lg border border-ink/10 bg-bone p-6 transition hover:border-flame/30 hover:shadow-card">
+                                <p class="text-sm font-extrabold text-flame">03</p>
+                                <h3 class="mt-6 text-xl font-bold group-hover:text-flame transition">Execute</h3>
+                                <p class="mt-3 text-sm leading-7 text-steel">Launch changes, campaigns, products, and operating improvements.</p>
+                            </div>
+
+                            <div class="card-hover group rounded-lg border border-ink/10 bg-bone p-6 transition hover:border-flame/30 hover:shadow-card">
+                                <p class="text-sm font-extrabold text-flame">04</p>
+                                <h3 class="mt-6 text-xl font-bold group-hover:text-flame transition">Measure and Improve</h3>
+                                <p class="mt-3 text-sm leading-7 text-steel">Track results, measure performance, and keep improving for stronger returns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ROADMAP ===== -->
+        <section class="identity-bg identity-mark-bg relative overflow-hidden bg-ink py-24 md:py-32">
+            <div class="brand-pattern-wash light"></div>
+            <div class="brand-lines-panel right-[-130px] top-[-110px]"></div>
+            <div class="brand-shape mid whitewash left-10 bottom-10"></div>
+            <img src="assets/images/content/growth-chart.png" alt="Corporate glass tower facade representing growth" class="absolute inset-0 h-full w-full object-cover opacity-30" />
+            <div class="absolute inset-0 bg-ink/72"></div>
+
+            <div class="identity-content mx-auto max-w-[1440px] px-5 md:px-10 xl:px-20">
+                <div class="max-w-3xl">
+                    <p class="section-kicker">Roadmap</p>
+                    <h2 class="mt-4 text-4xl font-extrabold md:text-5xl">Three stages to <span class="font-stencil-word text-flame">market value.</span></h2>
+                </div>
+
+                <div class="roadmap-grid mt-14 grid gap-5 md:grid-cols-3">
+                    <div class="reveal roadmap-card card-minimal card-hover rounded-lg border border-white/10 bg-white/10 p-8 backdrop-blur transition hover:border-flame/30">
+                        <p class="phase-badge text-sm font-extrabold">Phase One</p>
+                        <h3 class="mt-8 text-2xl font-bold">Build the base</h3>
+                        <p class="mt-4 text-sm leading-7 text-bone/68">Establish working methods, build foundational brands, and align strategic partners.</p>
+                        <div class="mt-6 h-1 w-16 rounded-full bg-flame/30"></div>
+                    </div>
+
+                    <div class="reveal reveal-delay-1 roadmap-card card-minimal card-hover rounded-lg border border-white/10 bg-white/10 p-8 backdrop-blur transition hover:border-flame/30">
+                        <p class="phase-badge text-sm font-extrabold">Phase Two</p>
+                        <h3 class="mt-8 text-2xl font-bold">Expand and acquire</h3>
+                        <p class="mt-4 text-sm leading-7 text-bone/68">Enter new markets, acquire promising brands, and activate cross-selling across the ecosystem.</p>
+                        <div class="mt-6 h-1 w-16 rounded-full bg-flame/50"></div>
+                    </div>
+
+                    <div class="reveal reveal-delay-2 roadmap-card card-minimal card-hover rounded-lg border border-white/10 bg-white/10 p-8 backdrop-blur transition hover:border-flame/30">
+                        <p class="phase-badge text-sm font-extrabold">Phase Three</p>
+                        <h3 class="mt-8 text-2xl font-bold">Scale market value</h3>
+                        <p class="mt-4 text-sm leading-7 text-bone/68">Launch advanced digital platforms and lead as a market maker in brand development.</p>
+                        <div class="mt-6 h-1 w-16 rounded-full bg-flame"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== INSIGHTS ===== -->
+        <section class="identity-bg-dark bg-bone py-24 text-ink md:py-32">
+            <div class="brand-pattern-wash"></div>
+            <div class="brand-shape small redwash left-8 top-20"></div>
+            <div class="brand-lines-panel right-[-150px] bottom-[-140px] rotate-6"></div>
+            <div class="identity-content mx-auto max-w-[1440px] px-5 md:px-10 xl:px-20">
+                <div class="mb-12 flex flex-col justify-between gap-6 md:flex-row md:items-end">
+                    <div>
+                        <p class="text-[11px] font-extrabold uppercase text-flame">Latest Insights</p>
+                        <h2 class="mt-4 text-4xl font-extrabold md:text-5xl">From the <span class="font-stencil-word text-flame">Business Wave</span> desk.</h2>
+                    </div>
+                    <a href="market-insights.html" class="group flex items-center gap-2 text-sm font-extrabold uppercase text-oxblood transition hover:text-flame">`r`n                        View All News
+                        <span class="transition group-hover:translate-x-1">-></span>
+                    </a>
+                </div>
+
+                <div class="grid gap-5 md:grid-cols-3">
+                    <article class="reveal group overflow-hidden rounded-lg bg-white shadow-card transition hover:shadow-cardhover hover:-translate-y-2">
+                        <div class="overflow-hidden">
+                            <img src="assets/images/content/legal-contract.png" alt="Business contract review session" class="image-zoom h-56 w-full object-cover" />
+                        </div>
+                        <div class="p-6">
+                            <p class="text-[11px] font-bold uppercase text-flame">Advisory</p>
+                            <h3 class="mt-4 text-2xl font-bold group-hover:text-flame transition">Why execution is the real differentiator.</h3>
+                            <p class="mt-3 text-sm text-steel">In a world of endless advice, the brands that win are the ones that execute with precision.</p>
+                            <div class="mt-4 inline-flex items-center text-sm font-bold uppercase text-oxblood transition group-hover:text-flame">
+                                Read More <span class="ml-2 transition group-hover:translate-x-1">-></span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="reveal reveal-delay-1 group overflow-hidden rounded-lg bg-white shadow-card transition hover:shadow-cardhover hover:-translate-y-2">
+                        <div class="overflow-hidden">
+                            <img src="assets/images/content/consulting-meeting.png" alt="Collaborative strategy meeting" class="image-zoom h-56 w-full object-cover" />
+                        </div>
+                        <div class="p-6">
+                            <p class="text-[11px] font-bold uppercase text-flame">Operations</p>
+                            <h3 class="mt-4 text-2xl font-bold group-hover:text-flame transition">Turning market opportunity into working systems.</h3>
+                            <p class="mt-3 text-sm text-steel">Operational excellence transforms market potential into sustainable business advantage.</p>
+                            <div class="mt-4 inline-flex items-center text-sm font-bold uppercase text-oxblood transition group-hover:text-flame">
+                                Read More <span class="ml-2 transition group-hover:translate-x-1">-></span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="reveal reveal-delay-2 group overflow-hidden rounded-lg bg-white shadow-card transition hover:shadow-cardhover hover:-translate-y-2">
+                        <div class="overflow-hidden">
+                            <img src="assets/images/content/growth-chart.png" alt="Market growth architecture" class="image-zoom h-56 w-full object-cover" />
+                        </div>
+                        <div class="p-6">
+                            <p class="text-[11px] font-bold uppercase text-flame">Investment</p>
+                            <h3 class="mt-4 text-2xl font-bold group-hover:text-flame transition">Building value beyond short-term profit.</h3>
+                            <p class="mt-3 text-sm text-steel">Sustainable value creation requires thinking beyond quarterly returns to long-term brand equity.</p>
+                            <div class="mt-4 inline-flex items-center text-sm font-bold uppercase text-oxblood transition group-hover:text-flame">
+                                Read More <span class="ml-2 transition group-hover:translate-x-1">-></span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TESTIMONIALS ===== -->
+        <section class="identity-bg bg-carbon py-16 border-y border-white/5">
+            <div class="brand-pattern-wash light"></div>
+            <div class="brand-shape large redwash right-[-120px] top-[-120px]"></div>
+            <div class="identity-content mx-auto max-w-[1440px] px-5 md:px-10 xl:px-20">
+                <div class="grid gap-8 md:grid-cols-3">
+                    <div class="text-center">
+                        <div class="mb-4 text-4xl text-flame">"</div>
+                        <p class="text-sm leading-7 text-bone/72">Business Wave transformed our operating model in 90 days. They didn't just advise-they built and executed.</p>
+                        <p class="mt-4 text-xs font-bold uppercase text-flame">- CEO, Tech Scale-up</p>
+                    </div>
+                    <div class="text-center border-x border-white/5 px-8">
+                        <div class="mb-4 text-4xl text-flame">"</div>
+                        <p class="text-sm leading-7 text-bone/72">The most comprehensive partner we've worked with. They understand both brand and engineering at the highest level.</p>
+                        <p class="mt-4 text-xs font-bold uppercase text-flame">- CMO, Enterprise SaaS</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="mb-4 text-4xl text-flame">"</div>
+                        <p class="text-sm leading-7 text-bone/72">From strategy to execution to ongoing improvement, Business Wave delivers measurable results.</p>
+                        <p class="mt-4 text-xs font-bold uppercase text-flame">- COO, Manufacturing Group</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT / CTA ===== -->
+        <section id="contact" class="identity-bg identity-mark-bg relative overflow-hidden bg-oxblood py-24 text-white md:py-32">
+            <div class="brand-pattern-wash light"></div>
+            <div class="brand-lines-panel left-[-140px] top-[-120px] rotate-[-10deg]"></div>
+            <div class="brand-shape small whitewash right-16 bottom-14"></div>
+            <img src="assets/images/content/team-boardroom.png" alt="Business Wave execution workspace" class="absolute inset-0 h-full w-full object-cover opacity-20" />
+            <div class="absolute inset-0 bg-oxblood/75"></div>
+
+            <!-- Floating particles -->
+            <div class="particle particle-contact-a"></div>
+            <div class="particle particle-contact-b"></div>
+
+            <div class="identity-content mx-auto max-w-4xl px-5 text-center md:px-10">
+                <img src="assets/logos/logo-white-transparent.png" alt="Business Wave Investment" class="mx-auto mb-10 h-14 w-auto animate-float" />
+
+                <h2 class="text-4xl font-extrabold leading-tight md:text-6xl">
+                    Start a <span class="text-white/80">different</span> business journey.
+                </h2>
+
+                <p class="mx-auto mt-6 max-w-2xl text-base leading-8 text-white/82">
+                    We are the partner that thinks with you, works with you, and builds lasting value with you.
+                </p>
+
+                <div class="mt-10 flex flex-col justify-center gap-3 sm:flex-row">
+                    <a href="mailto:omar@businesswave.com" class="btn-ripple inline-flex min-h-12 items-center justify-center rounded bg-white px-7 text-[12px] font-extrabold uppercase text-oxblood transition hover:bg-ink hover:text-white hover:scale-105 hover:shadow-soft">
+                        Request Consultation
+                    </a>
+                    <a href="our-story.html" class="btn-ripple inline-flex min-h-12 items-center justify-center rounded border border-white/35 px-7 text-[12px] font-extrabold uppercase text-white transition hover:bg-white/10 hover:scale-105">Read Our Story</a>
+                </div>
+
+                <div class="mt-16 flex flex-wrap items-center justify-center gap-3">
+                    <span class="rounded border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold uppercase text-white/72">Company Building</span>
+                    <span class="rounded border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold uppercase text-white/72">Investment Readiness</span>
+                    <span class="rounded border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold uppercase text-white/72">Digital Systems</span>
+                    <span class="rounded border border-white/20 bg-white/10 px-4 py-2 text-xs font-bold uppercase text-white/72">Operations</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="identity-bg bg-ink py-12 border-t border-white/5">
+        <div class="brand-pattern-wash light"></div>
+        <div class="brand-lines-panel right-[-220px] top-[-180px] opacity-[.08]"></div>
+        <div class="identity-content mx-auto max-w-[1440px] px-5 md:px-10 xl:px-20">
+            <div class="grid gap-8 md:grid-cols-4">
+                <div class="md:col-span-2">
+                    <img src="assets/logos/logo-white-transparent.png" alt="Business Wave Investment" class="h-20 w-auto" />
+                    <p class="mt-4 max-w-sm text-xs leading-6 text-bone/68">
+                        Business Wave Investment is a company builder, advisory firm, and investment operator that builds brands from idea to market value.
+                    </p>
+                    <div class="mt-4 flex gap-4">
+                        <a href="#" class="text-bone/55 transition hover:text-flame" aria-label="LinkedIn">
+                            <span class="material-symbols-outlined text-2xl">linkedin</span>
+                        </a>
+                        <a href="#" class="text-bone/55 transition hover:text-flame" aria-label="Twitter">
+                            <span class="material-symbols-outlined text-2xl">alternate_email</span>
+                        </a>
+                        <a href="#" class="text-bone/55 transition hover:text-flame" aria-label="YouTube">
+                            <span class="material-symbols-outlined text-2xl">play_circle</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-bold uppercase text-bone/62">Company</h4>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="portfolio.html" class="text-sm text-bone/62 transition hover:text-white">Portfolio</a></li>
+                        <li><a href="market-insights.html" class="text-sm text-bone/62 transition hover:text-white">Insights</a></li>
+                        <li><a href="our-story.html" class="text-sm text-bone/62 transition hover:text-white">Story</a></li>
+                        <li><a href="#contact" class="text-sm text-bone/62 transition hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-bold uppercase text-bone/62">Connect</h4>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="mailto:omar@businesswave.com" class="text-sm text-bone/62 transition hover:text-white">omar@businesswave.com</a></li>
+                        <li><a href="#" class="text-sm text-bone/62 transition hover:text-white">+1 (555) 000-0000</a></li>
+                        <li class="text-sm text-bone/55">New York, NY</li>
+                    </ul>
+                    <div class="mt-4">
+                        <p class="text-xs font-bold uppercase text-bone/55">Newsletter</p>
+                        <div class="mt-2 flex">
+                            <input type="email" placeholder="Your email" class="flex-1 rounded-l bg-white/5 px-3 py-2 text-xs text-white placeholder-bone/30 border border-white/10 focus:border-flame focus:outline-none" />
+                            <button class="rounded-r bg-flame px-3 py-2 text-xs font-bold uppercase text-white transition hover:bg-ember">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 border-t border-white/5 pt-8 text-center text-xs text-bone/55">
+                &copy; 2026 Business Wave Investment. Company building, advisory, operations, and investment execution.
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
+
+
+

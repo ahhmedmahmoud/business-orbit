@@ -1,0 +1,8 @@
+{
+  "pages_checked": 34,
+  "references_checked": 1065,
+  "errors": [],
+  "js_syntax": "verified separately with node --check",
+  "browser_QA": "not performed: managed preview requires control-browser capability which is not available",
+  "performance": "lightweight static implementation; no Lighthouse or measured Core Web Vitals"
+}

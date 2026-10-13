@@ -1,0 +1,19 @@
+html[lang="ar"] body{font-family:Arial,sans-serif;font-size:18px;font-weight:600;line-height:1.85}
+html[lang="ar"] :is(p,li,dd,label,input,textarea,select){font-weight:600;letter-spacing:0}
+html[lang="ar"] :is(h1,h2,h3,h4,strong,b){font-weight:700;letter-spacing:0}
+html[lang="ar"] :is(.hero-description>p,.experience-heading>p,.experience-heading>div>p,.alignment-copy>p,.value-panel p,.cap-inspector>p,.cap-inspector li,.process-stage>p,.process-stage .stage-output p,.kpi-dimensions p,.experience-contact>p:not(.overline),.section p,.section li,.lead,.outputs li,.method p,.card p){font-size:18px;line-height:1.85;font-weight:600;max-width:62ch}
+html[lang="ar"] .direction-orbit-experience :is(.hero-description>p,.experience-heading>p,.experience-heading>div>p,.process-stage p,.kpi-dimensions p,.experience-route p,.cap-inspector p,.cap-inspector li){color:rgba(255,255,255,.9)}
+html[lang="ar"] .light-section :is(p,li){color:#081c34!important}
+html[lang="ar"] :is(.overline,.eyebrow,.tag,.hero-position,.reference-strip span,.scope-caption,.development-note,.stage-output>span,.hero-caption,.footer-fine,.cap-counter){font-size:13px!important;line-height:1.7;font-weight:700;letter-spacing:0}
+html[lang="ar"] :is(.new-nav nav>a,.lang,.solid,.button,.pill,.line-link,.textlink,#menu,.hero-video-controls button,.preload-skip,.brief-actions button){font-size:15px!important;line-height:1.6;font-weight:700}
+html[lang="ar"] :is(.new-nav nav>a,.lang,.solid,.button,.pill,.line-link,.textlink){min-height:44px}
+html[lang="ar"] :is(.value-tabs button,.route-selector small,.value-panel .decision-output p,.reference-strip span){font-size:16px;font-weight:600}
+html[lang="ar"] :is(.value-big,.reference-strip strong,.outline-number){font-weight:700}
+html[lang="ar"] :is(.cap-node,.capability-visual>span,.map-core p){font-size:14px;font-weight:700;line-height:1.55}
+html[lang="ar"] :is(.cap-node>span,.cap-pagination button,.stage-dots a){font-size:13px;font-weight:700}
+html[lang="ar"] .route-selector strong{font-size:30px;font-weight:700}
+html[lang="ar"] #brief :is(input,select,textarea){font-size:18px;font-weight:600;line-height:1.7}
+html[lang="ar"] .preload-slogan{font-size:18px;font-weight:700;line-height:1.8}
+html[lang="ar"] .preload-name{font-family:Montserrat,Arial,sans-serif;font-weight:700}
+@media(min-width:901px) and (max-width:1200px){html[lang="ar"] .new-nav{flex-wrap:wrap;gap:16px}html[lang="ar"] .new-nav nav{order:3;width:100%;justify-content:space-between;gap:16px}html[lang="ar"] .orbit-hero-content{padding-top:205px}}
+@media(max-width:560px){html[lang="ar"] .hero-description>p{max-width:100%}html[lang="ar"] .orbit-hero h1{font-size:clamp(42px,11vw,55px);line-height:1.25}html[lang="ar"] .orbit-hero-content{padding-top:150px}html[lang="ar"] .hero-caption{gap:16px;align-items:start}html[lang="ar"] .reference-strip span{font-size:14px!important}html[lang="ar"] .cap-node{font-size:13px}html[lang="ar"] .map-core p{font-size:12px}html[lang="ar"] .value-tabs button{font-size:17px}html[lang="ar"] .experience-heading h2{font-size:38px;line-height:1.3}html[lang="ar"] .preload-slogan{font-size:16px}}
